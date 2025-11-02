@@ -1,0 +1,11 @@
+@{
+    Layout = "_Layout"; // Inherit the shared outer layout
+}
+
+
+<main role="main" class="pb-3 container">
+    @RenderBody()
+</main>
+
+
+@RenderSection("scripts", required: false)
